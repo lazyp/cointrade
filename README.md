@@ -1,4 +1,3 @@
 cointrade
 =========
-
-btc/ltc程序化交易
+OKCoin API 实现
