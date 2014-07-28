@@ -10,10 +10,10 @@ import json
 import time
 
 class OKCoinAPI:
-        __DOMAIN__  = "www.okcoin.com"
-        __OKCOIN_TICKER_API__ = "https://www.okcoin.com/api/ticker.do?symbol=btc_cny"
+        __DOMAIN__  = "www.okcoin.cn"
+        __OKCOIN_TICKER_API__ = "https://www.okcoin.cn/api/ticker.do?symbol=btc_cny"
         __OKCOIN_TRADE_API__  = "https://www.okcoin.cn/api/trades.do"
-        __OKCOIN_KLINE_API__  = "https://www.okcoin.com/kline/period.do?step=%d&symbol=okcoinbtccny"
+        __OKCOIN_KLINE_API__  = "https://www.okcoin.cn/kline/period.do?step=%d&symbol=okcoinbtccny"
         __HEADERS__ = {"Content-type" : "application/x-www-form-urlencoded"}
 
         def __init__(self , partner , secretkey):
